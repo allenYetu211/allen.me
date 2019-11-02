@@ -1,6 +1,6 @@
 import Axios, { AxiosInstance, AxiosResponse } from 'axios';
 
-import config from '@config/api.config';
+import config from 'config/api.config';
 
 // import { IConfigOrigin, IGetParams } from 'globals/interfaces/http.interface';
 

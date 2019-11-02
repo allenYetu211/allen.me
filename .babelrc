@@ -7,11 +7,11 @@
       "root": ["./"],
       "alias": {
         "page": "./page",
-        "@components": "./components",
-        "@asset": "./asset",
-        "@config": "./config",
-        "@http": "./http",
-        "@typs": "./types",
+        "components": "./components",
+        "asset": "./asset",
+        "config": "./config",
+        "http": "./http",
+        "types": "./types",
       }
     }]
   ]

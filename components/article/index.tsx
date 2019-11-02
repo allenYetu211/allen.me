@@ -1,14 +1,6 @@
 
 import style from './style/index.scss';
-
-export interface ArticleType {
-  content: string;
-  introduce: string;
-  isEdit: boolean;
-  publishState: boolean;
-  tags: string[];
-  title: string;
-}
+import {ArticleType} from 'types/index';
 
 const ArticleComponent = (props: ArticleType ) => {
   console.log('props', props)

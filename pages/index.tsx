@@ -1,9 +1,9 @@
-import Layout from '@components/layout';
 import { useEffect } from 'react';
 import Link from 'next/link';
-import http from '@http/index';
-import ArticleComponent from '@components/article';
-import { ArticleType } from '../types/index';
+import http from 'http/index';
+import Layout from 'components/layout';
+import ArticleComponent from 'components/article';
+import { ArticleType } from 'types/index';
 
 
 const HomePage = (props) => {
@@ -19,7 +19,7 @@ const HomePage = (props) => {
 }
 
 HomePage.getInitialProps = async () => {
-  const result = await http.get({
+  const result: ArticleType[] = await http.get({
     url: '/getUserArticle'
   })
   return {
