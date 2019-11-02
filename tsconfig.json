@@ -9,9 +9,10 @@
     "baseUrl": ".",
 		"paths": {
 			"page/*": ["./page/*"],
-			"@com/*": ["./components/*"],
+			"@components/*": ["./components/*"],
 			"@config/*": ["./config/*"],
 			"@http/*": ["./http/*"],
+			"@types/*": ["./types/*"],
 		},
     "allowJs": true,
     "skipLibCheck": true,

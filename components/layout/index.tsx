@@ -1,7 +1,7 @@
 import style from './style/index.scss';
 import '@asset/style/global.scss';
-import Head from '@com/head';
-import Footer from '@com/footer';
+import Head from '@components/head';
+import Footer from '@components/footer';
 
 const LayoutComponents = (props) => {
   return (

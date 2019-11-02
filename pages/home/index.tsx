@@ -11,7 +11,7 @@ const HomePage = (props) => {
 
   return (
     <Layout>
-      <div>HomePage</div>
+      <div>HomePage2</div>
     </Layout>
   )
 }

@@ -1,36 +1,30 @@
-import Layout from '@com/layout';
+import Layout from '@components/layout';
 import { useEffect } from 'react';
 import Link from 'next/link';
 import http from '@http/index';
-import fetch from 'isomorphic-unfetch';
+import ArticleComponent from '@components/article';
+import { ArticleType } from '../types/index';
+
 
 const HomePage = (props) => {
-  useEffect(() => {
-    console.log('useEffect', props);
-  },[])
-
   return (
     <Layout>
-      <div>HomePage</div>
+      {
+        props.article.map((item: ArticleType) => {
+          return (<ArticleComponent key={item._id} {...item}/>)
+        })
+      }
     </Layout>
   )
 }
 
 HomePage.getInitialProps = async () => {
-  const res = await fetch('http://localhost:7001/getUserArticle');
-  
-  const data = await res.json();
-  
-  return data
-
-  
-  // const data = await http.get({
-  //   url: '/getUserArticle'
-  // })
-  // console.log('rest', data)
-  // return {
-  //   shows: data
-  // };
+  const result = await http.get({
+    url: '/getUserArticle'
+  })
+  return {
+    article: result
+  };
 };
 
 export default HomePage;

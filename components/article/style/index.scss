@@ -1,0 +1,13 @@
+.articleItem {
+  padding: 20px 0;
+  font-weight: 300;
+  border-bottom: 1px solid #e0e0e0;
+  &:last-child {
+    border-bottom: none;
+  }
+  .title {
+    font-size: 35px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+}
