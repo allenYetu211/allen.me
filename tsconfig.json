@@ -10,6 +10,8 @@
 		"paths": {
 			"page/*": ["./page/*"],
 			"@com/*": ["./components/*"],
+			"@config/*": ["./config/*"],
+			"@http/*": ["./http/*"],
 		},
     "allowJs": true,
     "skipLibCheck": true,

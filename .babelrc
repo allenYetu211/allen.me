@@ -9,6 +9,8 @@
         "page": "./page",
         "@com": "./components",
         "@asset": "./asset",
+        "@config": "./config",
+        "@http": "./http",
       }
     }]
   ]
