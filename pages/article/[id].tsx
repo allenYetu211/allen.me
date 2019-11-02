@@ -6,7 +6,24 @@ const ArticlePage = (props) => {
   console.log('props', props)
   return (
     <Layout>
-      <div>ArticleComponent</div>
+      <title>
+        {props.detail.title}
+      </title>
+
+      <div>
+
+        <h1>
+          {props.detail.title}
+        </h1>
+
+        
+        
+      </div>
+
+      <div>
+        {props.detail.content}
+      </div>
+
     </Layout>
   )
 }
