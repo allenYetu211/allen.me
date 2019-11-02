@@ -1,13 +1,31 @@
 .articleItem {
-  padding: 20px 0;
+  cursor: pointer;
+  padding: 20px 15px;
   font-weight: 300;
   border-bottom: 1px solid #e0e0e0;
+  transition: all 0.5s ease;
   &:last-child {
     border-bottom: none;
   }
   .title {
     font-size: 35px;
     font-weight: 300;
-    margin-bottom: 10px;
   }
+
+  &:hover {
+    background-color:#e8e6e6;
+  }
+}
+
+.headContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+
+.readArticle {
+  margin-top: 15px;
+  font-size: 14px;
 }

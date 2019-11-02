@@ -3,4 +3,5 @@ export interface ArticleType {
   tags: string[];
   title: string;
   _id: string;
+  createTime: string;
 }
