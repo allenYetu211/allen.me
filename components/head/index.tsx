@@ -4,7 +4,7 @@ import style from './style/index.scss';
 const HeadComponent = () => {
   return (
     <div className={style.head}>
-      HeadComponent
+      <h1>Allen OYang</h1>
     </div>
   )
 }
