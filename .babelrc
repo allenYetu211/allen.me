@@ -12,6 +12,7 @@
         "config": "./config",
         "http": "./http",
         "types": "./types",
+        "plugins": "./plugins",
       }
     }]
   ]

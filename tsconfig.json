@@ -13,6 +13,7 @@
 			"config/*": ["./config/*"],
 			"http/*": ["./http/*"],
 			"types/*": ["./types/*"],
+			"plugins/*": ["./plugins/*"],
 		},
     "allowJs": true,
     "skipLibCheck": true,
