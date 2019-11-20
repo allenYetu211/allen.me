@@ -1,7 +1,7 @@
-import Layout from '@com/layout';
+import Layout from 'components/layout';
 import { useEffect } from 'react';
 import Link from 'next/link';
-import http from '@http/index';
+import http from 'http/index';
 
 
 const HomePage = (props) => {

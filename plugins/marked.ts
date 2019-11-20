@@ -19,6 +19,7 @@ marked.setOptions({
 const renderer = new marked.Renderer()
 
 export default (content) => {
+  console.log('marked(content, { renderer })', marked(content, { renderer }))
   // 返回解析内容
   return marked(content, { renderer })
 }

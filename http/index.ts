@@ -61,14 +61,6 @@ class HttpClient {
 
 	private async AXIOSHTTP(method: Method, h: HTTPPARAMS): Promise<any> {
     const { url, params, data } = h;
-    console.log({
-			baseURL: config.baseURL,
-			url,
-			method,
-			params,
-			data,
-			// withCredentials: true,
-		})
 		return await this.axios({
 			baseURL: config.baseURL,
 			url,
