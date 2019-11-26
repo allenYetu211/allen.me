@@ -1,6 +1,6 @@
 
 .articleContainer {
-
+  line-height: 1.5;
   font-weight: 300;
 h1,h2,h3,h4,h5{
   font-weight: 300;
@@ -28,11 +28,6 @@ pre {
 }
 
 :global {
- /* a11y-dark theme */
-/* Based on the Tomorrow Night Eighties theme: https://github.com/isagalaev/highlight.js/blob/master/src/styles/tomorrow-night-eighties.css */
-/* @author: ericwbailey */
-
-/* Comment */
 .hljs-comment,
 .hljs-quote {
   color: #d4d0ab;

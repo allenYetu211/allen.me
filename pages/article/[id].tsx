@@ -3,9 +3,9 @@ import http from 'http/index';
 import marked from 'plugins/marked';
 import style from './style/index.scss';
 // import 'highlight.js/scss/a11y-dark.scss';
-import 'highlight.js/styles/a11y-dark.css';
+// import 'highlight.js/styles/a11y-dark.css';
 
-const css = require('highlight.js/styles/a11y-dark.css');
+// const css = require('highlight.js/styles/a11y-dark.css');
 
 const ArticlePage = (props) => {
   return (
