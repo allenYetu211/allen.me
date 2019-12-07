@@ -2089,11 +2089,6 @@ cssnano-simple@1.0.0:
     cssnano-preset-simple "^1.0.0"
     postcss "^7.0.18"
 
-csstype@^2.2.0:
-  version "2.6.7"
-  resolved "http://10.80.84.176:4873/csstype/-/csstype-2.6.7.tgz#20b0024c20b6718f4eda3853a1f5a1cce7f5e4a5"
-  integrity sha1-ILACTCC2cY9O2jhTofWhzOf15KU=
-
 currently-unhandled@^0.4.1:
   version "0.4.1"
   resolved "http://10.80.84.176:4873/currently-unhandled/-/currently-unhandled-0.4.1.tgz#988df33feab191ef799a61369dd76c17adf957ea"

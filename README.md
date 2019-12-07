@@ -10,4 +10,5 @@
 - ~~scp至服务器（1c1g，可能无法build成功）~~  「待改进」
 - [x] Dockerfile 编写
 - [x] docker-componse 配置
+- [x] docker 部署脚本
 
