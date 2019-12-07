@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  # node 服务
+  allen-next:
+    build: .   # nodeServer 目录
+    ports:
+      - 3000:3000
+    environment:
+      NODE_ENV: production
+    restart: always # 服务挂了的时候始终自动重启
