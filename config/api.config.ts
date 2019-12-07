@@ -1,9 +1,9 @@
 const apiMap = {
   development: {
-    baseURL: 'http://39.106.173.13/user',
+    baseURL: 'http://localhost:7001',
   },
   production: {
-    baseURL: 'http://39.106.173.13/user',
+    baseURL: 'https://www.utauu.com',
   }
 }
 export default apiMap[process.env.NODE_ENV]

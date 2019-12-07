@@ -31,7 +31,7 @@ const ArticlePage = (props) => {
 ArticlePage.getInitialProps = async (context) => {
   const { id } = context.query;
   const result = await http.get({
-    url: '/getUserArticleDetail',
+    url: '/u/v/user/getUserArticleDetail',
     params: {
       id
     }

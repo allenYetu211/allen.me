@@ -20,7 +20,7 @@ const HomePage = (props) => {
 
 HomePage.getInitialProps = async () => {
   const result: ArticleType[] = await http.get({
-    url: '/getUserArticle'
+    url: '/u/v/user/getUserArticle'
   })
   return {
     article: result
