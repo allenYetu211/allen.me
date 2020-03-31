@@ -5,3 +5,8 @@ export interface ArticleType {
   _id: string;
   createTime: string;
 }
+
+export interface TagsType {
+  msg: string;
+  _id: string;
+}

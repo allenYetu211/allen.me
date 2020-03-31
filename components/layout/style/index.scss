@@ -5,9 +5,43 @@
     flex-direction: column;
 }
 
-.main {
+
+
+.content {
   flex: 1;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+    margin: 0 auto;
+}
+
+
+.main {
   width: 50%;
-  margin: 0 auto;
+}
+
+
+.informationBar,
+.navigationBar {
+  flex: 1;
+  max-width: 260px;
+  padding: 67px 16px 0;
+}
+
+.uiContainer {
+  padding: 8px 0;
+    min-height: 53px;
+    border: 1px solid #e8e8e8;
+    border-radius: 2px;
+    background: #fff;
+}
+
+.tagsItem {
+  height: 40px;
+  display: flex;
+  align-items: center;
   padding: 0 15px;
+  &:hover {
+    background-color: #f5f5f5;
+  }
 }
